@@ -31,3 +31,8 @@ penetration = [
 [project.scripts]
 py = "common_toolkit.CLIs.development_cli.create_python_app:main"
 #flit = "flit:main"
+
+# iosrt配置
+[tool.isort]
+profile = "black"
+multi_line_output = 3
