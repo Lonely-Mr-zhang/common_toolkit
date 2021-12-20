@@ -22,15 +22,15 @@ pip install common_toolkit
 ```
 
 ## 3、依赖按需加载
-eg1: 只想要使用开发相关的包
+eg1: 只想要使用开发相关的依赖
 ```shell script
 pip install "common_toolkit[development]"
 ```
-eg2: 只想要使用渗透测试相关的包
+eg2: 只想要使用渗透测试相关的依赖
 ```shell script
 pip install "common_toolkit[penetration]"
 ```
-eg3: 如果需要使用两个及以上相关的包，请在中括号中用`,`将需要安装的依赖包名分隔
+eg3: 如果需要使用两个及以上相关的依赖，请在中括号中用`,`将需要安装的依赖包名分隔
 ```shell script
 pip install "common_toolkit[development,penetration]"
 ```
